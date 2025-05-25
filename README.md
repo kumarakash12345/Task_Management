@@ -1,12 +1,60 @@
-# React + Vite
+# 📋 React-Based Task Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-page application (SPA) built with **React** that enables users to **create**, **manage**, and **track** tasks efficiently. This project utilizes modern React features like **functional components**, **hooks**, **Context API**, and **React Router DOM** to deliver a clean and functional user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📝 Create, Edit, and Delete Tasks
+- 📊 Task Filters: All, In Progress, Done
+- 📁 Organized Component Folder Structure
+- 🔁 React Router-Based Navigation
+- 🧠 State Management with Context API
+- ♻️ Reusable UI Components (Buttons, Inputs, etc.)
+- 🎨 Responsive UI using CSS
+- 📌 Constant Navbar Across All Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Technologies Used
+
+- **React** (Functional Components, Hooks)
+- **React Router DOM** (Routing)
+- **Context API** (State Management)
+- **CSS** (Styling)
+- **JavaScript (ES6+)**
+
+---
+
+## 📁 Project Structure
+
+src/
+│
+├── components/
+│ ├── Dashboard.jsx
+│ ├── AllTask.jsx
+│ ├── Progress.jsx
+│ ├── Done.jsx
+│ ├── Login.jsx
+│ ├── Navbar.jsx
+│ └── Layout.jsx
+│
+├── context/
+│ └── TaskContext.jsx
+│
+├── App.jsx
+└── main.jsx or index.js
+
+✅ Functionality Overview
+Feature	Description
+Login	Mock login system for demonstration
+Dashboard	Welcome page with navigation links
+All Task	View all tasks
+In Progress	View tasks marked as "In Progress"
+Done	View tasks marked as "Done"
+Navbar	Persistent and accessible from all pages
+Form Handling	Add and edit tasks with validation
+State Handling	Context API manages all task-related data
+
+
